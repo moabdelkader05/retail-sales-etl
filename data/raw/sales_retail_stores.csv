@@ -1,0 +1,508 @@
+transaction_id,order_date,customer_id,region,product_id,product_name,category,quantity,unit_price
+TXN-000001,15/04/2023,CUST-1007,North America,PRD-304,  Winter Jacket ,Clothing,1,129.50
+TXN-000009,"Apr 23, 2023",CUST-1036,Middle East,PRD-104,27 Inch Monitor,Electronics,1,229.99
+txn-000125 ,27/03/2024,CUST-1050,North America,PRD-301,Cotton T-Shirt,Clothing,6,13.59
+TXN-000014,07/12/2024,CUST-1136,Middle East,PRD-102,Mechanical Keyboard,Electronics,2,67.99
+TXN-000017,05/11/2024,CUST-1122,Asia Pacific,PRD-104,27 Inch Monitor,Electronics,3,229.99
+TXN-000018,12/09/2023,CUST-1104,Middle East,PRD-102,N/A,Electronics,2,79.99
+TXN-000020,24/01/2024,cust-1055,Africa,PRD-301,Cotton T-Shirt,Clothing,1,15.99
+TXN-000021,11/08/2023,CUST-1143,Europe,PRD-403,Dumbbell Set,Sports & Outdoors,1,74.25
+TXN-000025,12/03/2023,CUST-1055,Africa,PRD-101,Wireless Mouse,Electronics,3,24.99
+TXN-000030,13/11/2024,CUST-1011,Africa,PRD-501,A4 Printer Paper,Office Supplies,2,6.99
+TXN-000036,30/09/2024,CUST-1051,Africa,PRD-601,Face Moisturizer,Beauty,1,18.75
+TXN-000038,13/09/2024,CUST-1078,North America,PRD-502,Ballpoint Pens Box,Office Supplies,2,0
+TXN-000041,02/11/2024,CUST-1099,North America,PRD-403,Dumbbell Set,Sports & Outdoors,3,74.25
+TXN-000042,"May 05, 2023",CUST-1133,Africa,PRD-501,A4 Printer Paper,Office Supplies,2,6.99
+TXN-000043,01/04/2024,CUST-1130,Middle East,PRD-503,Ergonomic Office Chair,Office Supplies,1,160.65
+TXN-000044,26/03/2024,CUST-1134,Middle East,PRD-501,A4 Printer Paper,Office Supplies,2,6.99
+TXN-000046,02/11/2023,CUST-1006,Africa,PRD-302,Denim Jeans,Clothing,3,49.90
+TXN-000047,12/05/2024,cust-1057,Asia Pacific,PRD-303,Running Shoes,Clothing,1,80.10
+TXN-000049,12/10/2023,CUST-1055,Africa,PRD-203,Air Fryer,  Home & Kitchen ,1,107.10
+TXN-000054,"May 16, 2024",CUST-1130,Middle East,PRD-202,Electric Kettle,Home & Kitchen,3,35.91
+TXN-000055,02/10/2023,CUST-1070,Africa,PRD-403,Dumbbell Set,Sports & Outdoors,2,63.11
+TXN-000056,"Jul 06, 2023",CUST-1098,North America,PRD-302,Denim Jeans,Clothing,2,49.90
+TXN-000058,10/11/2023,CUST-1024,North America,PRD-501,A4 Printer Paper,Office Supplies,8,6.99
+TXN-000059,04/05/2023,CUST-1117,North America,PRD-202,Electric Kettle,Home & Kitchen,3,39.90
+TXN-000060,31/10/2023,CUST-1071,Middle East,PRD-501,A4 PRINTER PAPER,Office Supplies,1,6.99
+TXN-000061,10/08/2024,CUST-1033,North America,PRD-302,Denim Jeans,Clothing,-1,49.90
+TXN-000062,06/10/2024,CUST-1017,North America,PRD-102,Mechanical Keyboard,Electronics,1,67.99
+TXN-000066,25/10/2024,CUST-1051,Africa,PRD-304,Winter Jacket,clothing,3,129.50
+TXN-000067,17/12/2024,CUST-1074,Middle East,PRD-502,Ballpoint Pens Box,Office Supplies,2,4.50
+TXN-000070,14/06/2023,CUST-1090,Africa,PRD-101,Wireless Mouse,Electronics,4,24.99
+TXN-000071,10/06/2024,CUST-1081,ASIA PACIFIC,PRD-301,Cotton T-Shirt,Clothing,1,14.39
+TXN-000072,01/10/2023,CUST-1128,Asia Pacific,PRD-303,Running Shoes,Clothing,1,89.00
+TXN-000074,05/06/2024,CUST-1040,North America,PRD-401,Yoga Mat,Sports & Outdoors,2,22.00
+TXN-000076,05/07/2024,CUST-1149,Middle East,PRD-403,Dumbbell Set,Sports & Outdoors,5,66.83
+TXN-000077,14/02/2023,CUST-1062,Africa,PRD-602,Signature Perfume,Beauty,8,53.91
+TXN-000078,29/05/2024,CUST-1039,Africa,PRD-401,  Yoga Mat ,Sports & Outdoors,1,22.00
+TXN-000079,18/03/2023,CUST-1037,Asia Pacific,PRD-101,Wireless Mouse,Electronics,2,24.99
+TXN-000080,08/07/2024,CUST-1137,asia pacific,PRD-502,Ballpoint Pens Box,Office Supplies,8,4.05
+TXN-000082,24/06/2023,CUST-1136,Middle East,PRD-102,Mechanical Keyboard,Electronics,2,79.99
+TXN-000083,21/04/2024,CUST-1066,Europe,PRD-104,27 Inch Monitor,Electronics,1,229.99
+TXN-12,23/07/2023,CUST-1109,Middle East,PRD-304,  Winter Jacket ,Clothing,1,129.50
+TXN-000085,03/12/2024,CUST-1006,Africa,PRD-402,Camping Tent,Sports & Outdoors,4,135.99
+TXN-000086,27/09/2024,CUST-1059,Asia Pacific,PRD-501,A4 Printer Paper,Office Supplies,N/A,6.99
+TXN-000087,16/08/2024,CUST-1011,Africa,PRD-304,Winter Jacket,Clothing,2,129.50
+TXN-000088,08/05/2024,CUST-1094,Africa,PRD-501,A4 Printer Paper,Office Supplies,2,6.99
+TXN-000089,10/01/2024,CUST-1058,Africa,PRD-501,A4 Printer Paper,Office Supplies,1,5.94
+TXN-000090,27/04/2024,cust-1098,North America,PRD-105,Laptop Pro 15,Electronics,1,1299.99
+TXN-000091,08/02/2023,CUST-1078,North America,PRD-502,  Ballpoint Pens Box ,Office Supplies,1,4.50
+TXN-000092,29/02/2024,CUST-1139,Europe,PRD-401,Yoga Mat,Sports & Outdoors,1,22.00
+TXN-000096,07/11/2024,CUST-1034,,PRD-602,Signature Perfume,Beauty,2,$59.90
+TXN-000097,02/05/2024,CUST-1033,North America,PRD-201,Non Stick Frying Pan,Home & Kitchen,1,34.50
+TXN-000098,04/03/2023,CUST-1134,Middle East,PRD-403,Dumbbell Set,  Sports & Outdoors ,N/A,74.25
+TXN-000101,17/11/2023,CUST-1117,North America,PRD-202,Electric Kettle,Home & Kitchen,5,39.90
+TXN-000102,"May 14, 2023",CUST-1024,North America,PRD-502,Ballpoint Pens Box,Office Supplies,1,4.50
+TXN-000104,10/08/2024,CUST-1143,Europe,PRD-202,Electric Kettle,Home & Kitchen,2,39.90
+TXN-000110,27/05/2024,CUST-1034,Africa,PRD-204,Blender,Home & Kitchen,3,64.95
+TXN-000111,19/02/2024,CUST-1020,Africa,PRD-301,,CLOTHING,1,13.59
+TXN-000115,20/10/2024,CUST-1145,North America,PRD-301,Cotton T-Shirt,Clothing,1,13.59
+TXN-000116,03/06/2024,CUST-1078,North America,PRD-204,BLENDER,Home & Kitchen,1,64.95
+TXN-000117,12/02/2023,CUST-1024,North America,PRD-602,Signature Perfume,Beauty,2,50.91
+TXN-000118,31/05/2024,CUST-1027,NORTH AMERICA,PRD-101,Wireless Mouse,Electronics,2,24.99
+TXN-000119,26/11/2024,CUST-1073,Asia Pacific,PRD-202,Electric Kettle,home & kitchen,1,39.90
+TXN-000120,"Dec 25, 2023",CUST-1039,Africa,PRD-201,Non Stick Frying Pan,Home & Kitchen,3,34.50
+TXN-000125,27/03/2024,CUST-1050,North America,PRD-301,Cotton T-Shirt,Clothing,6,13.59
+TXN-000126,"Jan 16, 2024",CUST-1036,  Middle East ,PRD-501,A4 Printer Paper,Office Supplies,1,6.29
+TXN-000128,18/08/2023,cust-1061,Asia Pacific,PRD-301,Cotton T-Shirt,Clothing,3,15.99
+TXN-000132,"Jul 11, 2024",CUST-1022,North America,PRD-401,Yoga Mat,Sports & Outdoors,2,18.70
+TXN-000134,02/12/2024,CUST-1140,North America,PRD-101,Wireless Mouse,Electronics,1,24.99
+TXN-000136,02/11/2024,CUST-1049,Middle East,PRD-101,Wireless Mouse,Electronics,3,24.99
+TXN-000137,15/06/2024,CUST-1048,  Europe ,PRD-203,Air Fryer,Home & Kitchen,8,119.00
+TXN-000139,18/03/2023,CUST-1091,Middle East,PRD-403,Dumbbell Set,Sports & Outdoors,1,$74.25
+TXN-000141,10/08/2024,CUST-1095,Asia Pacific,PRD-301,Cotton T-Shirt,Clothing,6,$15.99
+TXN-000142,26/09/2023,CUST-1133,Africa,PRD-103,Noise Cancelling Headphones,Electronics,3,149.99
+TXN-000144,29/12/2024,CUST-1017,North America,PRD-202,Electric Kettle,Home & Kitchen,1,39.90
+,"Aug 09, 2024",CUST-1061,Asia Pacific,PRD-501,A4 Printer Paper,Office Supplies,1,5.94
+TXN-000146,17/03/2023,CUST-1123,Asia Pacific,PRD-602,signature perfume,Beauty,2,50.91
+TXN-000148,18/10/2023,CUST-1058,Africa,PRD-601,Face Moisturizer,Beauty,N/A,15.94
+TXN-000151,09/05/2024,CUST-1140,North America,PRD-503,Ergonomic Office Chair,Office Supplies,3,189.00
+TXN-000155,09/08/2023,CUST-1024,north america,PRD-301,Cotton T-Shirt,Clothing,4,0
+TXN-000157,"Apr 06, 2024",CUST-1142,Europe,PRD-103,Noise Cancelling Headphones,Electronics,1,127.49
+TXN-000158,08/09/2024,CUST-1087,North America,PRD-203,air fryer,Home & Kitchen,1,119.00
+TXN-000160,13/01/2024,CUST-1126,  Europe ,PRD-301,Cotton T-Shirt,Clothing,5,15.99
+TXN-000161,14/08/2024,CUST-1122,asia pacific,PRD-304,Winter Jacket,Clothing,3,110.08
+TXN-000164,16/09/2024,CUST-1088,North America,PRD-601,Face Moisturizer,Beauty,6,18.75
+TXN-000165,27/07/2024,CUST-1054,North America,PRD-501,A4 Printer Paper,Office Supplies,3,6.99
+TXN-000167,21/05/2023,CUST-1138,Europe,PRD-103,Noise Cancelling Headphones,electronics,5,149.99
+TXN-000168,13/04/2023,CUST-1026,Africa,PRD-104,27 Inch Monitor,Electronics,1,206.99
+TXN-000169,25/11/2023,CUST-1122,asia pacific,PRD-502,Ballpoint Pens Box,Office Supplies,1,4.50
+TXN-000172,05/12/2023,CUST-1035,Europe,PRD-301,Cotton T-Shirt,Clothing,3,15.99
+TXN-000176,13/08/2023,CUST-1031,North America,PRD-201,Non Stick Frying Pan,Home & Kitchen,1,34.50
+TXN-000179,16/05/2023,CUST-1131,Europe,PRD-101,wireless mouse,Electronics,4,22.49
+TXN-000181,18/10/2024,CUST-1009,Africa,PRD-601,Face Moisturizer,Beauty,1,18.75
+TXN-000186,31/08/2023,CUST-1148,Europe,PRD-104,27 Inch Monitor,Electronics,1,229.99
+TXN-000187,19/12/2023,CUST-1045,North America,PRD-601,Face Moisturizer,Beauty,2,18.75
+TXN-000188,04/11/2023,CUST-1138,Europe,PRD-202,Electric Kettle,home & kitchen,2,39.90
+TXN-000192,26/10/2024,CUST-1083,Middle East,PRD-104,27 Inch Monitor,Electronics,1,195.49
+TXN-000194,24/08/2023,CUST-1107,Middle East,PRD-302,Denim Jeans,Clothing,3,49.90
+TXN-000195,23/06/2023,CUST-1126,Europe,PRD-502,Ballpoint Pens Box,Office Supplies,8,4.50
+TXN-000197,"Jul 18, 2024",CUST-1124,ASIA PACIFIC,PRD-101,Wireless Mouse,Electronics,1,21.24
+TXN-000199,04/11/2023,CUST-1104,Middle East,PRD-101,Wireless Mouse,Electronics,3,24.99
+TXN-000200,"Dec 20, 2024",CUST-1142,Europe,PRD-203,Air Fryer,Home & Kitchen,2,119.00
+TXN-000205,20/07/2024,CUST-1070,Africa,PRD-202,Electric Kettle,Home & Kitchen,1,39.90
+TXN-000207,16/05/2023,CUST-1114,Africa,PRD-601,Face Moisturizer,Beauty,1,18.75
+TXN-000208,"Feb 02, 2024",CUST-1084,,PRD-302,Denim Jeans,Clothing,1,44.91
+TXN-000210,13/04/2024,CUST-1064,Middle East,PRD-202,Electric Kettle,Home & Kitchen,2,39.90
+TXN-000211,20/05/2023,CUST-1086,Asia Pacific,PRD-202,Electric Kettle,Home & Kitchen,1,33.91
+TXN-000214,09/03/2024,CUST-1036,middle east,PRD-401,Yoga Mat,Sports & Outdoors,2,22.00
+TXN-000216,16/03/2024,CUST-1012,  Europe ,PRD-202,Electric Kettle,Home & Kitchen,2,39.90
+TXN-000217,08/12/2024,CUST-1096,Africa,PRD-104,27 INCH MONITOR,  Electronics ,2,195.49
+TXN-000218,31/07/2023,CUST-1037,Asia Pacific,PRD-102,  Mechanical Keyboard ,Electronics,2,71.99
+TXN-000220,06/10/2024,CUST-1110,North America,PRD-202,Electric Kettle,HOME & KITCHEN,2,35.91
+TXN-000222,24/06/2024,CUST-1051,Africa,PRD-202,Electric Kettle,Home & Kitchen,1,35.91
+TXN-000223,28/03/2023,CUST-1045,North America,PRD-301,Cotton T-Shirt,Clothing,1,13.59
+TXN-000224,12/10/2024,CUST-1036,Middle East,PRD-203,Air Fryer,Home & Kitchen,1,107.10
+TXN-000226,01/02/2023,CUST-1114,Africa,PRD-301,COTTON T-SHIRT,Clothing,1,13.59
+TXN-000228,01/11/2023,CUST-1056,,PRD-204,Blender,Home & Kitchen,1,64.95
+TXN-000230,05/07/2024,N/A,Asia Pacific,PRD-103,Noise Cancelling Headphones,Electronics,6,127.49
+TXN-000232,04/10/2024,CUST-1101,Asia Pacific,PRD-502,Ballpoint Pens Box,Office Supplies,1,4.50
+TXN-000233,18/08/2024,cust-1095,Asia Pacific,PRD-201,Non Stick Frying Pan,Home & Kitchen,2,34.50
+TXN-000234,05/08/2023,CUST-1017,North America,PRD-202,Electric Kettle,Home & Kitchen,1,35.91
+TXN-000237,15/03/2024,CUST-1014,North America,PRD-401,YOGA MAT,Sports & Outdoors,1,22.00
+TXN-000239,27/01/2024,CUST-1081,Asia Pacific,PRD-102,Mechanical Keyboard,Electronics,-1,79.99
+TXN-000240,05/10/2024,CUST-1043,Africa,PRD-101,Wireless Mouse,Electronics,1,24.99
+TXN-000241,19/11/2023,CUST-1032,Europe,PRD-102,Mechanical Keyboard,Electronics,2,71.99
+TXN-000242,2099-01-01,CUST-1007,North America,PRD-201,Non Stick Frying Pan,Home & Kitchen,3,29.32
+TXN-000243,24/06/2024,CUST-1062,AFRICA,PRD-203,Air Fryer,Home & Kitchen,1,119.00
+TXN-000245,26/03/2023,CUST-1129,Africa,PRD-301,Cotton T-Shirt,  Clothing ,1,14.39
+TXN-000246,14/11/2023,CUST-1040,North America,PRD-602,Signature Perfume,beauty,1,59.90
+TXN-000247,03/05/2023,cust-1015,Asia Pacific,PRD-301,COTTON T-SHIRT,Clothing,1,15.99
+TXN-000250,21/11/2024,CUST-1041,Africa,PRD-102,Mechanical Keyboard,electronics,4,67.99
+TXN-000253,02/12/2023,CUST-1120,Europe,PRD-203,Air Fryer,Home & Kitchen,3,119.00
+TXN-000254,13/07/2024,CUST-1095,Asia Pacific,PRD-104,27 INCH MONITOR,Electronics,1,229.99
+TXN-000255,"Nov 11, 2023",CUST-1003,Asia Pacific,PRD-502,Ballpoint Pens Box,Office Supplies,1,4.05
+TXN-000258,18/03/2023,CUST-1084,Europe,PRD-203,Air Fryer,  Home & Kitchen ,1,119.00
+TXN-000259,07/04/2024,CUST-1031,North America,PRD-201,Non Stick Frying Pan,Home & Kitchen,9999,34.50
+TXN-000261,17/07/2024,CUST-1008,Middle East,PRD-602,Signature Perfume,Beauty,1,50.91
+TXN-000263,06/12/2023,CUST-1051,Africa,PRD-602,signature perfume,Beauty,2,59.90
+TXN-000264,11/07/2023,CUST-1098,North America,PRD-301,Cotton T-Shirt,Clothing,2,15.99
+TXN-000265,"Jan 28, 2024",CUST-1141,Europe,PRD-301,Cotton T-Shirt,Clothing,2,15.99
+TXN-000266,19/12/2023,CUST-1098,North America,PRD-501,A4 Printer Paper,Office Supplies,1,6.29
+TXN-000269,26/05/2023,CUST-1008,Middle East,PRD-402,Camping Tent,Sports & Outdoors,2,135.99
+TXN-000273,29/06/2023,CUST-1144,Europe,PRD-201,Non Stick Frying Pan,Home & Kitchen,1,29.32
+TXN-000277,13/07/2024,CUST-1106,Asia Pacific,PRD-602,Signature Perfume,Beauty,3,59.90
+TXN-000278,"Apr 18, 2023",CUST-1009,Africa,PRD-301,Cotton T-Shirt,Clothing,2,15.99
+TXN-000280,01/09/2023,CUST-1139,Europe,PRD-402,Camping Tent,Sports & Outdoors,1,$159.99
+TXN-000284,09/08/2024,CUST-1100,Middle East,PRD-302,denim jeans,Clothing,3,44.91
+TXN-000287,18/12/2024,CUST-1071,Middle East,PRD-202,Electric Kettle,Home & Kitchen,1,39.90
+TXN-000290,21/01/2023,CUST-1013,North America,PRD-402,Camping Tent,Sports & Outdoors,4,159.99
+TXN-000292,27/02/2023,CUST-1105,Africa,PRD-601,Face Moisturizer,N/A,1,18.75
+TXN-000294,28/11/2024,CUST-1130,Middle East,PRD-502,Ballpoint Pens Box,Office Supplies,4,4.50
+TXN-000295,19/10/2023,cust-1042,middle east,PRD-202,Electric Kettle,Home & Kitchen,1,39.90
+TXN-000296,21/01/2023,CUST-1053,Africa,PRD-104,27 Inch Monitor,Electronics,1,195.49
+TXN-000297,30/12/2024,CUST-1058,Africa,PRD-501,A4 Printer Paper,Office Supplies,1,6.99
+TXN-000298,07/06/2024,CUST-1134,Middle East,PRD-301,Cotton T-Shirt,Clothing,2,15.99
+TXN-000302,05/07/2023,CUST-1092,Middle East,PRD-301,Cotton T-Shirt,Clothing,2,13.59
+TXN-000304,"Aug 17, 2024",CUST-1031,north america,PRD-301,Cotton T-Shirt,Clothing,4,13.59
+TXN-000306,17/11/2023,CUST-1021,ASIA PACIFIC,PRD-103,Noise Cancelling Headphones,Electronics,1,149.99
+TXN-000308,15/07/2023,cust-1004,NORTH AMERICA,PRD-202,Electric Kettle,Home & Kitchen,4,33.91
+txn-000767 ,24/05/2023,CUST-1133,Africa,PRD-101,Wireless Mouse,Electronics,1,22.49
+TXN-000309,02/11/2023,CUST-1129,Africa,PRD-102,Mechanical Keyboard,Electronics,2,79.99
+TXN-000310,18/02/2024,cust-1126,,PRD-102,Mechanical Keyboard,Electronics,1,79.99
+TXN-000311,01/07/2024,CUST-1010,North America,PRD-102,mechanical keyboard,  Electronics ,4,79.99
+TXN-000312,30/04/2024,CUST-1114,Africa,PRD-102,Mechanical Keyboard,ELECTRONICS,2,79.99
+TXN-000313,07/06/2024,CUST-1036,Middle East,PRD-301,Cotton T-Shirt,  Clothing ,1,15.99
+TXN-000316,28/09/2023,CUST-1060,  Middle East ,PRD-105,Laptop Pro 15,ELECTRONICS,1,1299.99
+TXN-000318,27/04/2023,CUST-1024,North America,PRD-502,Ballpoint Pens Box,Office Supplies,4,4.50
+TXN-000324,21/02/2023,CUST-1126,Europe,PRD-101,Wireless Mouse,Electronics,1,24.99
+TXN-000325,24/05/2024,CUST-1023,AFRICA,PRD-302,Denim Jeans,CLOTHING,2,49.90
+TXN-000327,03/01/2023,CUST-1094,Africa,PRD-301,Cotton T-Shirt,Clothing,2,15.99
+TXN-000328,20/04/2023,CUST-1043,Africa,PRD-101,Wireless Mouse,Electronics,1,22.49
+TXN-000330,"Jul 20, 2024",CUST-1035,Europe,PRD-601,Face Moisturizer,Beauty,5,$
+TXN-000332,08/04/2024,CUST-1071,Middle East,PRD-501,A4 Printer Paper,Office Supplies,2,6.99
+TXN-000334,29/07/2024,CUST-1129,Africa,PRD-601,Face Moisturizer,Beauty,3,18.75
+TXN-000340,19/09/2023,cust-1072,Africa,PRD-101,Wireless Mouse,ELECTRONICS,5,21.24
+TXN-000341,02/01/2024,CUST-1078,North America,PRD-501,A4 Printer Paper,Office Supplies,,5.94
+TXN-000342,"Aug 07, 2023",CUST-1140,North America,PRD-102,Mechanical Keyboard,Electronics,2,79.99
+TXN-000344,26/01/2023,CUST-1030,Asia Pacific,PRD-203,Air Fryer,Home & Kitchen,2,119.00
+TXN-000345,21/06/2023,CUST-1050,North America,PRD-503,Ergonomic Office Chair,Office Supplies,1,189.00
+TXN-000347,31/03/2023,CUST-1007,North America,PRD-401,Yoga Mat,sports & outdoors,4,22.00
+TXN-000348,03/02/2024,CUST-1116,Asia Pacific,PRD-204,Blender,Home & Kitchen,3,64.95
+TXN-000349,24/10/2023,CUST-1019,North America,PRD-402,  Camping Tent ,Sports & Outdoors,2,159.99
+TXN-000355,22/06/2023,cust-1040,North America,PRD-402,Camping Tent,Sports & Outdoors,2,143.99
+TXN-000356,09/11/2023,CUST-1085,  Asia Pacific ,PRD-102,Mechanical Keyboard,  Electronics ,1,79.99
+TXN-000357,19/03/2023,CUST-1051,Africa,PRD-503,Ergonomic Office Chair,Office Supplies,2,189.00
+TXN-000358,28/04/2024,CUST-1010,North America,PRD-103,Noise Cancelling Headphones,Electronics,2,127.49
+TXN-000363,13/06/2024,CUST-1097,Asia Pacific,PRD-103,Noise Cancelling Headphones,Electronics,4,149.99
+TXN-000365,08/05/2024,CUST-1059,Asia Pacific,PRD-502,Ballpoint Pens Box,Office Supplies,2,4.50
+TXN-000367,04/04/2024,CUST-1005,North America,PRD-602,Signature Perfume,Beauty,2,59.90
+TXN-000368,09/04/2024,CUST-1047,africa,PRD-302,Denim Jeans,Clothing,1,49.90
+TXN-000373,09/03/2024,CUST-1150,Middle East,PRD-102,Mechanical Keyboard,Electronics,1,67.99
+TXN-000374,17/09/2023,CUST-1046,Africa,PRD-302,Denim Jeans,Clothing,1,44.91
+TXN-000375,13/04/2023,CUST-1059,Asia Pacific,PRD-102,Mechanical Keyboard,Electronics,3,79.99
+TXN-000377,28/02/2023,CUST-1103,North America,PRD-203,Air Fryer,Home & Kitchen,1,101.15
+TXN-000379,,CUST-1023,Africa,PRD-602,Signature Perfume,Beauty,1,59.90
+TXN-000380,20/08/2023,CUST-1144,Europe,PRD-201,Non Stick Frying Pan,Home & Kitchen,1,34.50
+TXN-000381,09/06/2024,CUST-1019,North America,PRD-102,Mechanical Keyboard,Electronics,3,79.99
+TXN-000499,17/09/2024,CUST-1137,Asia Pacific,PRD-101,Wireless Mouse,Electronics,1,22.49
+TXN-000382,28/11/2024,CUST-1063,Asia Pacific,PRD-302,,Clothing,1,44.91
+TXN-000383,12/06/2024,CUST-1059,Asia Pacific,PRD-602,Signature Perfume,Beauty,1,59.90
+TXN-000387,12/05/2023,CUST-1047,Africa,PRD-201,Non Stick Frying Pan,Home & Kitchen,2,29.32
+TXN-000388,16/04/2024,CUST-1045,NORTH AMERICA,PRD-401,Yoga Mat,Sports & Outdoors,1,18.70
+TXN-000389,19/09/2024,CUST-1048,Europe,PRD-502,Ballpoint Pens Box,Office Supplies,3,4.05
+TXN-000392,18/02/2023,CUST-1125,North America,PRD-403,N/A,Sports & Outdoors,2,63.11
+TXN-000393,24/07/2024,CUST-1086,Asia Pacific,PRD-301,COTTON T-SHIRT,Clothing,4,13.59
+TXN-000396,05/10/2023,CUST-1075,Asia Pacific,PRD-201,Non Stick Frying Pan,Home & Kitchen,2,31.05
+TXN-000400,06/10/2023,CUST-1122,Asia Pacific,PRD-202,Electric Kettle,Home & Kitchen,2,33.91
+TXN-000401,14/11/2023,CUST-1145,North America,PRD-501,A4 Printer Paper,  Office Supplies ,1,5.94
+TXN-000403,15/07/2024,CUST-1111,Asia Pacific,PRD-101,Wireless Mouse,Electronics,1,24.99
+TXN-000405,06/07/2023,CUST-1137,Asia Pacific,PRD-201,Non Stick Frying Pan,Home & Kitchen,3,34.50
+TXN-000409,11/09/2023,CUST-1064,MIDDLE EAST,PRD-102,Mechanical Keyboard,Electronics,2,71.99
+TXN-000410,16/07/2024,CUST-1080,Africa,PRD-301,Cotton T-Shirt,Clothing,5,15.99
+TXN-000416,11/01/2024,CUST-1116,Asia Pacific,PRD-302,Denim Jeans,Clothing,5,42.41
+TXN-000417,01/02/2024,CUST-1062,Africa,PRD-202,Electric Kettle,N/A,1,33.91
+TXN-000419,"Sep 12, 2024",CUST-1126,EUROPE,PRD-203,Air Fryer,Home & Kitchen,5,119.00
+TXN-000420,13/01/2024,CUST-1016,asia pacific,PRD-301,Cotton T-Shirt,Clothing,3,14.39
+TXN-000423,17/07/2024,CUST-1041,Africa,PRD-301,Cotton T-Shirt,Clothing,2,15.99
+TXN-000427,21/03/2023,CUST-1147,Africa,PRD-201,Non Stick Frying Pan,Home & Kitchen,3,34.50
+TXN-000430,31/05/2024,CUST-1101,Asia Pacific,PRD-101,Wireless Mouse,Electronics,1,21.24
+TXN-000431,28/05/2024,CUST-1141,Europe,PRD-501,A4 Printer Paper,Office Supplies,1,6.29
+TXN-000433,09/11/2023,CUST-1049,Middle East,PRD-202,Electric Kettle,Home & Kitchen,2,39.90
+TXN-000436,12/12/2024,CUST-1067,EUROPE,PRD-302,Denim Jeans,Clothing,1,49.90
+TXN-000438,04/06/2024,CUST-1075,  Asia Pacific ,PRD-102,Mechanical Keyboard,Electronics,2,71.99
+TXN-000442,12/03/2024,CUST-1059,Asia Pacific,PRD-304,Winter Jacket,Clothing,1,129.50
+TXN-000444,"May 02, 2023",CUST-1041,Africa,PRD-601,Face Moisturizer,BEAUTY,1,15.94
+TXN-000445,05/06/2023,CUST-1078,  North America ,PRD-601,Face Moisturizer,Beauty,2,18.75
+TXN-000447,17/06/2023,CUST-1048,EUROPE,PRD-401,Yoga Mat,SPORTS & OUTDOORS,1,22.00
+TXN-000453,09/04/2024,CUST-1106,Asia Pacific,PRD-102,Mechanical Keyboard,Electronics,1,79.99
+TXN-000455,24/06/2023,CUST-1041,Africa,PRD-303,Running Shoes,Clothing,4,89.00
+TXN-000456,23/10/2023,CUST-1108,Asia Pacific,PRD-403,Dumbbell Set,Sports & Outdoors,2,66.83
+TXN-000458,01/08/2023,,Europe,PRD-104,27 Inch Monitor,ELECTRONICS,4,195.49
+TXN-000459,22/04/2023,CUST-1077,Africa,PRD-502,Ballpoint Pens Box,Office Supplies,3,4.50
+TXN-000460,06/02/2023,CUST-1046,Africa,PRD-501,A4 Printer Paper,Office Supplies,1,6.99
+TXN-000461,04/12/2023,CUST-1075,Asia Pacific,PRD-302,Denim Jeans,Clothing,1,49.90
+TXN-000462,24/12/2024,CUST-1023,Africa,PRD-304,Winter Jacket,Clothing,8,110.08
+TXN-000463,19/05/2024,CUST-1145,North America,PRD-102,Mechanical Keyboard,Electronics,1,71.99
+TXN-000465,28/11/2023,CUST-1018,Europe,PRD-201,Non Stick Frying Pan,Home & Kitchen,2,29.32
+TXN-000466,30/04/2024,CUST-1050,North America,PRD-502,Ballpoint Pens Box,Office Supplies,5,4.05
+TXN-000469,27/12/2024,CUST-1030,Asia Pacific,PRD-103,Noise Cancelling Headphones,Electronics,2,149.99
+TXN-000471,14/11/2023,CUST-1049,Middle East,PRD-301,Cotton T-Shirt,Clothing,5,13.59
+TXN-000472,29/04/2023,cust-1010,North America,PRD-102,Mechanical Keyboard,Electronics,1,67.99
+TXN-000473,2099-01-01,CUST-1134,Middle East,PRD-101,Wireless Mouse,Electronics,1,24.99
+TXN-000478,26/04/2024,CUST-1117,North America,PRD-301,Cotton T-Shirt,Clothing,5,14.39
+TXN-000479,08/03/2023,CUST-1085,Asia Pacific,PRD-402,Camping Tent,Sports & Outdoors,3,159.99
+TXN-000480,30/11/2023,CUST-1027,north america,PRD-102,Mechanical Keyboard,Electronics,2,79.99
+TXN-000481,02/08/2023,CUST-1041,Africa,PRD-104,27 Inch Monitor,Electronics,3,229.99
+TXN-000482,19/04/2024,CUST-1020,  Africa ,PRD-104,27 Inch Monitor,Electronics,2,195.49
+TXN-000483,03/04/2023,CUST-1098,,PRD-401,Yoga Mat,Sports & Outdoors,4,22.00
+TXN-000484,02/04/2024,CUST-1116,Asia Pacific,PRD-401,Yoga Mat,Sports & Outdoors,5,18.70
+TXN-000485,09/01/2023,CUST-1112,Middle East,PRD-601,Face Moisturizer,Beauty,-1,15.94
+TXN-000486,01/02/2023,CUST-1001,Middle East,PRD-602,Signature Perfume,Beauty,1,59.90
+TXN-000487,29/01/2024,CUST-1045,North America,PRD-302,Denim Jeans,Clothing,4,42.41
+TXN-000642,24/01/2023,cust-1024,North America,PRD-201,Non Stick Frying Pan,Home & Kitchen,3,34.50
+TXN-000490,13/08/2024,CUST-1061,Asia Pacific,PRD-301,Cotton T-Shirt,Clothing,1,13.59
+TXN-000491,19/06/2024,CUST-1037,  Asia Pacific ,PRD-402,Camping Tent,Sports & Outdoors,6,159.99
+TXN-000492,01/07/2024,CUST-1149,Middle East,PRD-304,Winter Jacket,Clothing,3,129.50
+TXN-000493,08/11/2023,CUST-1076,Middle East,PRD-601,face moisturizer,Beauty,1,15.94
+TXN-000494,01/06/2024,CUST-1007,North America,PRD-602,Signature Perfume,Beauty,1,59.90
+TXN-000497,"Apr 29, 2023",CUST-1148,Europe,PRD-102,Mechanical Keyboard,Electronics,6,79.99
+TXN-000498,21/03/2024,cust-1100,Middle East,PRD-104,27 Inch Monitor,Electronics,6,195.49
+TXN-000499,17/09/2024,CUST-1137,Asia Pacific,PRD-101,Wireless Mouse,Electronics,1,22.49
+TXN-000503,16/10/2024,CUST-1048,Europe,PRD-503,Ergonomic Office Chair,Office Supplies,3,189.00
+TXN-000504,02/02/2024,CUST-1019,north america,PRD-105,Laptop Pro 15,Electronics,2,1169.99
+TXN-000507,04/01/2023,CUST-1039,Africa,PRD-203,Air Fryer,Home & Kitchen,4,101.15
+TXN-000510,13/12/2024,CUST-1011,  Africa ,PRD-103,Noise Cancelling Headphones,Electronics,5,149.99
+TXN-000517,20/07/2024,CUST-1037,Asia Pacific,PRD-102,Mechanical Keyboard,Electronics,3,79.99
+TXN-000525,10/04/2024,CUST-1014,North America,PRD-303,Running Shoes,Clothing,1,75.65
+TXN-000529,04/02/2023,CUST-1011,Africa,PRD-602,Signature Perfume,Beauty,1,50.91
+TXN-000530,03/01/2024,CUST-1004,North America,PRD-101,  Wireless Mouse ,Electronics,1,24.99
+TXN-000532,27/06/2024,CUST-1019,North America,PRD-304,Winter Jacket,Clothing,2,129.50
+TXN-000533,11/06/2024,CUST-1021,Asia Pacific,PRD-501,A4 Printer Paper,Office Supplies,1,6.99
+TXN-000536,27/10/2023,CUST-1032,Europe,PRD-301,Cotton T-Shirt,Clothing,abc,13.59
+TXN-000540,16/05/2023,CUST-1141,Europe,PRD-402,Camping Tent,Sports & Outdoors,1,135.99
+TXN-000541,25/09/2024,CUST-1038,Europe,PRD-502,Ballpoint Pens Box,Office Supplies,4,4.50
+TXN-000543,06/07/2024,CUST-1082,Europe,PRD-101,Wireless Mouse,ELECTRONICS,5,22.49
+TXN-000546,26/02/2023,CUST-1057,Asia Pacific,PRD-101,Wireless Mouse,Electronics,3,24.99
+TXN-000548,19/10/2023,CUST-1110,North America,PRD-102,Mechanical Keyboard,Electronics,1,79.99
+TXN-000549,29/02/2024,CUST-1107,Middle East,PRD-501,  A4 Printer Paper ,Office Supplies,2,6.29
+TXN-000550,"Oct 16, 2024",CUST-1017,North America,PRD-602,Signature Perfume,Beauty,3,53.91
+TXN-000551,06/11/2023,CUST-1098,North America,PRD-103,Noise Cancelling Headphones,Electronics,1,$149.99
+TXN-000553,05/10/2024,CUST-1093,Middle East,PRD-602,Signature Perfume,Beauty,3,$59.90
+TXN-000555,10/06/2024,CUST-1013,North America,PRD-601,Face Moisturizer,Beauty,1,18.75
+TXN-000556,09/04/2023,CUST-1078,North America,PRD-201,Non Stick Frying Pan,Home & Kitchen,1,34.50
+TXN-000559,yesterday,CUST-1114,Africa,PRD-102,Mechanical Keyboard,Electronics,3,79.99
+TXN-000560,21/03/2023,cust-1021,Asia Pacific,PRD-103,,Electronics,1,149.99
+TXN-000562,"Oct 12, 2023",CUST-1048,Europe,PRD-503,Ergonomic Office Chair,Office Supplies,3,189.00
+TXN-000564,09/07/2023,CUST-1130,Middle East,PRD-601,Face Moisturizer,Beauty,1,15.94
+TXN-000565,16/06/2024,CUST-1029,Africa,PRD-104,27 Inch Monitor,Electronics,1,229.99
+TXN-000566,04/12/2024,CUST-1073,Asia Pacific,PRD-102,Mechanical Keyboard,Electronics,4,79.99
+TXN-000567,19/11/2024,CUST-1122,Asia Pacific,PRD-101,Wireless Mouse,  Electronics ,1,22.49
+12345,31/12/2023,CUST-1072,Africa,PRD-403,Dumbbell Set,Sports & Outdoors,1,66.83
+TXN-000570,31/01/2023,CUST-1065,middle east,PRD-102,mechanical keyboard,Electronics,8,79.99
+TXN-000571,20/03/2023,CUST-1040,North America,PRD-401,Yoga Mat,Sports & Outdoors,1,22.00
+TXN-000572,13/07/2024,cust-1139,Europe,PRD-301,Cotton T-Shirt,Clothing,1,13.59
+TXN-000573,"Jul 24, 2024",CUST-1114,Africa,PRD-502,Ballpoint Pens Box,Office Supplies,2,4.50
+TXN-000574,08/08/2024,CUST-1029,Africa,PRD-203,Air Fryer,home & kitchen,1,101.15
+TXN-000575,27/08/2024,CUST-1091,Middle East,PRD-203,Air Fryer,,1,119.00
+TXN-000576,yesterday,CUST-1025,Europe,PRD-202,Electric Kettle,Home & Kitchen,2,39.90
+TXN-000580,"Feb 16, 2024",CUST-1074,Middle East,PRD-302,Denim Jeans,Clothing,2,42.41
+TXN-000581,20/03/2023,CUST-1146,Asia Pacific,PRD-201,Non Stick Frying Pan,Home & Kitchen,2.5,34.50
+TXN-000582,04/07/2023,CUST-1132,Asia Pacific,PRD-203,Air Fryer,Home & Kitchen,2,101.15
+TXN-000583,21/09/2024,CUST-1120,Europe,PRD-502,Ballpoint Pens Box,Office Supplies,1,3.82
+TXN-000585,20/02/2024,CUST-1042,Middle East,PRD-201,NON STICK FRYING PAN,Home & Kitchen,1,34.50
+TXN-000591,30/11/2024,CUST-1029,,PRD-202,Electric Kettle,Home & Kitchen,2,35.91
+TXN-000593,"Sep 19, 2023",CUST-1114,Africa,PRD-502,Ballpoint Pens Box,Office Supplies,4,4.05
+TXN-000594,24/03/2023,CUST-1082,Europe,PRD-204,Blender,Home & Kitchen,4,64.95
+TXN-000596,04/01/2023,CUST-1048,Europe,PRD-501,A4 Printer Paper,  Office Supplies ,1,6.99
+TXN-000597,07/04/2024,CUST-1034,Africa,PRD-602,Signature Perfume,Beauty,4,59.90
+TXN-000598,07/08/2024,CUST-1107,Middle East,PRD-103,Noise Cancelling Headphones,Electronics,2,134.99
+TXN-000599,20/02/2023,CUST-1051,Africa,PRD-602,Signature Perfume,  Beauty ,1,59.90
+TXN-000600,20/11/2024,CUST-1135,Asia Pacific,PRD-102,Mechanical Keyboard,Electronics,4,71.99
+TXN-000602,12/09/2023,CUST-1075,Asia Pacific,PRD-102,Mechanical Keyboard,ELECTRONICS,1,71.99
+TXN-000603,20/09/2023,CUST-1055,Africa,PRD-402,camping tent,Sports & Outdoors,2,135.99
+TXN-000607,18/05/2024,CUST-1081,Asia Pacific,PRD-105,Laptop Pro 15,Electronics,3,1299.99
+TXN-000609,01/06/2023,CUST-1144,  Europe ,PRD-202,Electric Kettle,Home & Kitchen,1,39.90
+TXN-000611,08/02/2024,CUST-1007,North America,PRD-503,  Ergonomic Office Chair ,Office Supplies,1,189.00
+TXN-000612,31/08/2024,CUST-1123,Asia Pacific,PRD-403,dumbbell set,Sports & Outdoors,2,74.25
+TXN-000615,14/11/2023,CUST-1031,North America,PRD-401,Yoga Mat,  Sports & Outdoors ,1,19.80
+TXN-000616,09/03/2024,CUST-1100,Middle East,PRD-301,Cotton T-Shirt,Clothing,2,13.59
+TXN-000618,13/03/2024,CUST-1033,north america,PRD-201,non stick frying pan,home & kitchen,1,29.32
+TXN-000619,25/03/2023,CUST-1146,ASIA PACIFIC,PRD-102,Mechanical Keyboard,Electronics,3,67.99
+TXN-000620,17/11/2024,CUST-1107,Middle East,PRD-101,Wireless Mouse,Electronics,4,22.49
+TXN-000622,05/01/2024,CUST-1125,North America,PRD-401,Yoga Mat,Sports & Outdoors,1,18.70
+TXN-000626,"May 12, 2024",CUST-1127,Asia Pacific,PRD-602,Signature Perfume,Beauty,4,53.91
+TXN-000627,07/03/2023,CUST-1005,North America,PRD-101,Wireless Mouse,Electronics,2,21.24
+TXN-000631,18/02/2023,CUST-1127,Asia Pacific,PRD-204,Blender,Home & Kitchen,1,55.21
+,21/08/2023,CUST-1017,North America,PRD-301,Cotton T-Shirt,Clothing,1,13.59
+TXN-000635,07/06/2023,CUST-1130,Middle East,PRD-403,Dumbbell Set,Sports & Outdoors,2,74.25
+TXN-000636,25/06/2023,CUST-1063,Asia Pacific,PRD-501,A4 Printer Paper,Office Supplies,3,5.94
+TXN-000642,24/01/2023,cust-1024,North America,PRD-201,Non Stick Frying Pan,Home & Kitchen,3,34.50
+TXN-000644,02/08/2024,CUST-1117,North America,PRD-501,A4 Printer Paper,Office Supplies,1,5.94
+TXN-000646,"Mar 11, 2024",CUST-1109,Middle East,PRD-102,Mechanical Keyboard,Electronics,N/A,79.99
+TXN-000647,26/03/2024,CUST-1102,North America,PRD-301,Cotton T-Shirt,Clothing,1,14.39
+txn-000717 ,14/08/2023,CUST-1004,  North America ,PRD-204,Blender,Home & Kitchen,3,64.95
+TXN-000653,14/12/2023,CUST-1105,Africa,PRD-401,Yoga Mat,Sports & Outdoors,2,19.80
+TXN-000654,21/10/2024,CUST-1147,Africa,PRD-402,Camping Tent,Sports & Outdoors,1,159.99
+TXN-000657,28/04/2023,CUST-1136,Middle East,PRD-101,Wireless Mouse,Electronics,3,24.99
+TXN-000660,"Feb 22, 2024",CUST-1119,Middle East,PRD-101,WIRELESS MOUSE,Electronics,2,24.99
+TXN-000661,27/03/2023,CUST-1033,North America,PRD-501,A4 Printer Paper,Office Supplies,2,6.29
+TXN-000662,"Sep 27, 2024",CUST-1109,Middle East,PRD-104,27 INCH MONITOR,Electronics,2,206.99
+TXN-000663,22/08/2024,CUST-1098,North America,PRD-502,Ballpoint Pens Box,Office Supplies,1,4.50
+TXN-000664,17/09/2024,CUST-1036,Middle East,PRD-402,Camping Tent,Sports & Outdoors,2,159.99
+TXN-000669,28/08/2023,CUST-1024,North America,PRD-202,ELECTRIC KETTLE,Home & Kitchen,3,39.90
+TXN-000672,03/01/2023,CUST-1137,N/A,PRD-101,Wireless Mouse,electronics,5,22.49
+TXN-000676,02/09/2023,CUST-1086,Asia Pacific,PRD-304,Winter Jacket,Clothing,1,116.55
+TXN-000678,"Oct 03, 2024",CUST-1016,  Asia Pacific ,PRD-501,a4 printer paper,office supplies,4,5.94
+TXN-000680,17/07/2023,CUST-1007,NORTH AMERICA,PRD-401,Yoga Mat,Sports & Outdoors,4,18.70
+TXN-000681,27/09/2024,CUST-1131,Europe,PRD-102,Mechanical Keyboard,electronics,1,71.99
+TXN-000682,30/05/2023,CUST-1092,Middle East,PRD-601,Face Moisturizer,Beauty,1,15.94
+TXN-000684,15/08/2024,CUST-1122,Asia Pacific,PRD-202,Electric Kettle,Home & Kitchen,1,39.90
+TXN-000687,"Jul 23, 2023",CUST-1150,Middle East,PRD-204,Blender,Home & Kitchen,1,64.95
+TXN-000689,23/06/2024,CUST-1062,Africa,PRD-201,Non Stick Frying Pan,Home & Kitchen,1,34.50
+TXN-000691,11/09/2023,CUST-1138,Europe,PRD-303,Running Shoes,Clothing,6,89.00
+TXN-000692,08/03/2023,CUST-1021,Asia Pacific,PRD-103,Noise Cancelling Headphones,Electronics,1,127.49
+TXN-000693,30/04/2024,CUST-1096,Africa,PRD-103,Noise Cancelling Headphones,Electronics,1,134.99
+TXN-000694,22/01/2024,CUST-1061,Asia Pacific,PRD-103,Noise Cancelling Headphones,Electronics,1,134.99
+TXN-000699,28/04/2024,CUST-1104,Middle East,PRD-502,Ballpoint Pens Box,Office Supplies,1,4.50
+TXN-000700,15/12/2023,CUST-1060,Middle East,PRD-103,Noise Cancelling Headphones,Electronics,3,134.99
+TXN-000702,08/12/2024,CUST-1108,Asia Pacific,PRD-202,ELECTRIC KETTLE,Home & Kitchen,5,35.91
+TXN-000703,05/02/2024,CUST-1085,Asia Pacific,PRD-601,Face Moisturizer,Beauty,6,18.75
+TXN-000705,10/04/2024,CUST-1060,Middle East,PRD-201,Non Stick Frying Pan,Home & Kitchen,2,34.50
+TXN-000706,03/02/2024,CUST-1138,Europe,PRD-102,Mechanical Keyboard,Electronics,2,0
+TXN-000707,02/12/2024,CUST-1148,Europe,PRD-301,Cotton T-Shirt,Clothing,4,$
+TXN-000708,10/02/2023,CUST-1085,Asia Pacific,PRD-105,Laptop Pro 15,Electronics,3,1104.99
+TXN-000709,18/03/2024,CUST-1045,North America,PRD-201,Non Stick Frying Pan,Home & Kitchen,1,29.32
+TXN-000710,26/10/2023,CUST-1041,africa,PRD-104,27 Inch Monitor,Electronics,5,195.49
+TXN-000711,"May 31, 2024",CUST-1032,Europe,PRD-501,A4 Printer Paper,Office Supplies,2,6.99
+TXN-000712,19/07/2023,CUST-1119,MIDDLE EAST,PRD-101,Wireless Mouse,Electronics,1,22.49
+TXN-000716,"Feb 19, 2023",CUST-1079,North America,PRD-102,Mechanical Keyboard,Electronics,1,79.99
+TXN-000717,14/08/2023,CUST-1004,  North America ,PRD-204,Blender,Home & Kitchen,3,64.95
+TXN-000718,01/10/2024,CUST-1084,Europe,PRD-301,Cotton T-Shirt,Clothing,1,15.99
+TXN-000719,"Apr 14, 2024",CUST-1103,North America,PRD-103,Noise Cancelling Headphones,Electronics,1,149.99
+TXN-000721,13/11/2024,CUST-1035,Europe,PRD-602,Signature Perfume,Beauty,1,59.90
+TXN-000723,29/07/2023,CUST-1128,Asia Pacific,PRD-102,Mechanical Keyboard,Electronics,2,71.99
+TXN-000728,27/04/2024,CUST-1021,Asia Pacific,PRD-501,A4 Printer Paper,Office Supplies,4,6.99
+TXN-000729,01/09/2024,CUST-1098,North America,PRD-101,Wireless Mouse,Electronics,1,24.99
+TXN-000080,08/07/2024,CUST-1137,asia pacific,PRD-502,Ballpoint Pens Box,Office Supplies,8,4.05
+TXN-000731,29/01/2024,CUST-1104,Middle East,PRD-202,Electric Kettle,Home & Kitchen,1,39.90
+TXN-000733,06/09/2023,CUST-1015,Asia Pacific,PRD-202,Electric Kettle,Home & Kitchen,1,39.90
+TXN-000436,12/12/2024,CUST-1067,EUROPE,PRD-302,Denim Jeans,Clothing,1,49.90
+TXN-000736,22/04/2023,CUST-1079,North America,PRD-502,Ballpoint Pens Box,Office Supplies,3,4.50
+TXN-000739,27/03/2024,CUST-1050,North America,PRD-501,A4 Printer Paper,Office Supplies,1,6.29
+TXN-000742,19/11/2023,CUST-1110,North America,PRD-501,A4 Printer Paper,Office Supplies,1,6.99
+TXN-000744,11/06/2024,CUST-1064,Middle East,PRD-601,Face Moisturizer,Beauty,4,$16.88
+TXN-000745,13/09/2024,CUST-1012,Europe,PRD-202,Electric Kettle,Home & Kitchen,5,39.90
+TXN-000746,30/12/2024,CUST-1026,Africa,PRD-301,N/A,Clothing,2,15.99
+TXN-000747,29/04/2023,CUST-1078,North America,PRD-501,A4 Printer Paper,Office Supplies,6,6.29
+TXN-000749,"Aug 18, 2023",CUST-1137,Asia Pacific,PRD-102,Mechanical Keyboard,Electronics,1,79.99
+TXN-000750,23/09/2023,CUST-1098,  North America ,PRD-501,  A4 Printer Paper ,Office Supplies,5,6.99
+TXN-000753,07/09/2024,CUST-1057,Asia Pacific,PRD-601,Face Moisturizer,Beauty,1,18.75
+TXN-000754,04/05/2024,CUST-1032,Europe,PRD-301,Cotton T-Shirt,Clothing,1,13.59
+TXN-000756,23/12/2023,CUST-1101,Asia Pacific,PRD-101,Wireless Mouse,Electronics,3,22.49
+TXN-ABC,29/05/2023,CUST-1036,Middle East,PRD-102,Mechanical Keyboard,Electronics,1,79.99
+TXN-000759,26/11/2024,CUST-1038,Europe,PRD-102,  Mechanical Keyboard ,Electronics,abc,71.99
+TXN-000760,08/09/2023,CUST-1087,North America,PRD-602,Signature Perfume,Beauty,6,53.91
+TXN-000761,09/10/2023,CUST-1023,Africa,PRD-202,ELECTRIC KETTLE,Home & Kitchen,1,35.91
+TXN-000763,30/11/2023,CUST-1112,Middle East,PRD-602,Signature Perfume,Beauty,4,$59.90
+TXN-000764,"Jul 05, 2024",CUST-1138,Europe,PRD-302,Denim Jeans,Clothing,6,42.41
+TXN-000767,24/05/2023,CUST-1133,Africa,PRD-101,Wireless Mouse,Electronics,1,22.49
+TXN-000769,"Sep 24, 2023",CUST-1033,North America,PRD-202,Electric Kettle,  Home & Kitchen ,1,39.90
+TXN-000771,20/03/2024,CUST-1042,Middle East,PRD-502,Ballpoint Pens Box,Office Supplies,2,4.50
+TXN-000774,yesterday,CUST-1142,Europe,PRD-502,Ballpoint Pens Box,Office Supplies,3,4.50
+TXN-000775,10/01/2023,CUST-1104,Middle East,PRD-302,Denim Jeans,Clothing,2,49.90
+TXN-000777,09/11/2023,CUST-1059,Asia Pacific,PRD-204,  Blender ,home & kitchen,3,64.95
+TXN-000781,22/05/2024,CUST-1132,Asia Pacific,PRD-502,Ballpoint Pens Box,Office Supplies,1,4.05
+TXN-000782,29/09/2023,CUST-1031,North America,PRD-501,,Office Supplies,1,6.99
+TXN-000783,28/02/2023,CUST-1010,North America,PRD-401,Yoga Mat,Sports & Outdoors,1,19.80
+TXN-000787,13/11/2024,CUST-1108,Asia Pacific,PRD-102,Mechanical Keyboard,Electronics,2,79.99
+TXN-000788,28/05/2024,CUST-1033,North America,PRD-501,A4 Printer Paper,Office Supplies,6,6.29
+TXN-000793,16/08/2023,CUST-1098,North America,PRD-502,Ballpoint Pens Box,Office Supplies,1,4.50
+TXN-000794,06/07/2023,CUST-1090,africa,PRD-201,Non Stick Frying Pan,Home & Kitchen,2,34.50
+TXN-000795,09/12/2023,CUST-1048,  Europe ,PRD-102,MECHANICAL KEYBOARD,Electronics,4,79.99
+TXN-000796,04/08/2023,CUST-1093,  Middle East ,PRD-501,  A4 Printer Paper ,Office Supplies,2,6.99
+TXN-000801,29/07/2024,CUST-1043,Africa,PRD-602,Signature Perfume,Beauty,1,53.91
+TXN-000802,23/09/2023,CUST-1132,Asia Pacific,PRD-402,Camping Tent,Sports & Outdoors,1,135.99
+TXN-000804,28/09/2023,CUST-1089,Africa,PRD-101,Wireless Mouse,Electronics,1,21.24
+TXN-000805,04/07/2024,CUST-1057,Asia Pacific,PRD-502,Ballpoint Pens Box,Office Supplies,3,4.50
+TXN-000807,06/04/2023,CUST-1112,Middle East,PRD-403,Dumbbell Set,Sports & Outdoors,2,66.83
+TXN-000813,20/08/2023,CUST-1110,North America,PRD-101,Wireless Mouse,Electronics,5,24.99
+TXN-000815,03/06/2023,CUST-1110,North America,PRD-102,Mechanical Keyboard,Electronics,4,71.99
+TXN-000816,03/01/2023,CUST-1095,Asia Pacific,PRD-301,Cotton T-Shirt,Clothing,1,15.99
+TXN-000818,08/09/2024,CUST-1127,Asia Pacific,PRD-202,Electric Kettle,Home & Kitchen,1,35.91
+TXN-000819,29/01/2024,CUST-1137,Asia Pacific,PRD-301,Cotton T-Shirt,Clothing,4,15.99
+TXN-000821,07/03/2024,CUST-1036,Middle East,PRD-502,ballpoint pens box,Office Supplies,6,3.82
+TXN-000822,09/11/2024,CUST-1007,North America,PRD-203,Air Fryer,Home & Kitchen,1,119.00
+TXN-000823,26/04/2024,CUST-1004,North America,PRD-104,27 Inch Monitor,Electronics,2,229.99
+TXN-000824,19/10/2024,CUST-1004,North America,PRD-501,A4 Printer Paper,OFFICE SUPPLIES,4,6.99
+TXN-000825,10/11/2023,CUST-1142,Europe,PRD-502,Ballpoint Pens Box,Office Supplies,2,3.82
+TXN-000826,06/02/2024,CUST-1055,Africa,PRD-102,Mechanical Keyboard,Electronics,4,79.99
+TXN-000827,24/10/2024,CUST-1104,Middle East,PRD-201,  Non Stick Frying Pan ,Home & Kitchen,3,34.50
+TXN-000830,13/05/2023,CUST-1050,  North America ,PRD-203,Air Fryer,Home & Kitchen,N/A,119.00
+TXN-000831,25/10/2023,CUST-1098,North America,PRD-102,mechanical keyboard,Electronics,6,79.99
+TXN-000834,25/05/2024,CUST-1037,Asia Pacific,PRD-501,A4 Printer Paper,Office Supplies,1,6.99
+TXN-000835,20/09/2023,CUST-1046,Africa,PRD-101,Wireless Mouse,Electronics,8,22.49
+TXN-000836,27/11/2024,CUST-1074,Middle East,PRD-202,Electric Kettle,Home & Kitchen,1,33.91
+TXN-000838,02/02/2024,CUST-1146,Asia Pacific,PRD-202,Electric Kettle,Home & Kitchen,2,39.90
+TXN-000840,"Apr 26, 2024",CUST-1072,Africa,PRD-301,Cotton T-Shirt,Clothing,3,15.99
+TXN-000841,24/01/2023,CUST-1111,Asia Pacific,PRD-501,A4 Printer Paper,Office Supplies,1,6.99
+TXN-000842,08/08/2023,CUST-1077,Africa,PRD-203,Air Fryer,  Home & Kitchen ,5,101.15
+TXN-000846,10/04/2023,CUST-1033,North America,PRD-602,Signature Perfume,Beauty,3,50.91
+TXN-000848,09/07/2024,CUST-1117,North America,PRD-301,Cotton T-Shirt,Clothing,2,15.99
+TXN-000849,11/10/2024,CUST-1042,Middle East,PRD-302,Denim Jeans,Clothing,8,44.91
+TXN-000850,11/07/2024,CUST-1005,North America,PRD-102,Mechanical Keyboard,ELECTRONICS,1,67.99
+TXN-000851,08/05/2023,CUST-1117,North America,PRD-104,27 Inch Monitor,Electronics,2,206.99
+TXN-000855,12/06/2023,CUST-1045,  North America ,PRD-304,Winter Jacket,Clothing,2,free
+TXN-000857,"Apr 09, 2024",CUST-1021,Asia Pacific,PRD-302,Denim Jeans,Clothing,1,49.90
+TXN-000858,26/03/2023,CUST-1097,Asia Pacific,PRD-502,Ballpoint Pens Box,Office Supplies,1,4.50
+TXN-000860,"Aug 04, 2023",CUST-1006,Africa,PRD-301,Cotton T-Shirt,Clothing,9999,15.99
+TXN-000864,27/06/2023,CUST-1132,Asia Pacific,PRD-301,Cotton T-Shirt,Clothing,1,15.99
+txn-000533 ,11/06/2024,CUST-1021,Asia Pacific,PRD-501,A4 Printer Paper,Office Supplies,1,6.99
+TXN-000866,05/04/2024,CUST-1146,ASIA PACIFIC,PRD-204,Blender,Home & Kitchen,1,64.95
+TXN-000867,04/07/2023,CUST-1136,Middle East,PRD-401,Yoga Mat,Sports & Outdoors,1,22.00
+TXN-000870,22/07/2023,CUST-1108,Asia Pacific,PRD-503,Ergonomic Office Chair,Office Supplies,2,189.00
+TXN-000871,19/10/2023,cust-1084,Europe,PRD-103,Noise Cancelling Headphones,ELECTRONICS,2,149.99
+TXN-000873,07/02/2024,CUST-1021,Asia Pacific,PRD-202,Electric Kettle,Home & Kitchen,5,39.90
+TXN-000014,07/12/2024,CUST-1136,Middle East,PRD-102,Mechanical Keyboard,Electronics,2,67.99
+TXN-000823,26/04/2024,CUST-1004,North America,PRD-104,27 Inch Monitor,Electronics,2,229.99
+TXN-000876,20/08/2024,CUST-1098,North America,PRD-501,A4 Printer Paper,Office Supplies,5,6.99
+TXN-000880,19/04/2023,CUST-1080,Africa,PRD-502,Ballpoint Pens Box,Office Supplies,4,3.82
+TXN-000884,31/08/2024,CUST-1050,North America,PRD-601,Face Moisturizer,  Beauty ,1,18.75
+TXN-000887,24/06/2023,CUST-1129,africa,PRD-101,Wireless Mouse,Electronics,1,$24.99
+TXN-000889,03/08/2024,CUST-1064,Middle East,PRD-101,Wireless Mouse,Electronics,3,24.99
+TXN-000890,2099-01-01,CUST-1086,Asia Pacific,PRD-102,Mechanical Keyboard,ELECTRONICS,1,79.99
+TXN-000893,29/06/2023,CUST-1140,North America,PRD-602,Signature Perfume,Beauty,2,50.91
+TXN-000894,19/03/2024,CUST-1011,Africa,PRD-201,Non Stick Frying Pan,Home & Kitchen,1,$34.50
+TXN-000895,24/10/2023,CUST-1038,Europe,PRD-601,Face Moisturizer,Beauty,3,$15.94
+TXN-000900,"Mar 28, 2024",CUST-1097,Asia Pacific,PRD-302,Denim Jeans,Clothing,1,42.41
+TXN-000902,"May 09, 2023",CUST-1033,NORTH AMERICA,PRD-301,Cotton T-Shirt,Clothing,2,14.39
+TXN-000903,02/08/2024,CUST-1028,Africa,PRD-101,wireless mouse,Electronics,3,24.99
+TXN-000906,"Nov 04, 2023",CUST-1114,Africa,PRD-502,Ballpoint Pens Box,Office Supplies,2,4.50
+TXN-000907,09/07/2023,CUST-1032,Europe,PRD-401,Yoga Mat,Sports & Outdoors,3,22.00
+TXN-000117,12/02/2023,CUST-1024,North America,PRD-602,Signature Perfume,Beauty,2,50.91
+TXN-000909,12/01/2023,CUST-1073,ASIA PACIFIC,PRD-102,Mechanical Keyboard,Electronics,2,71.99
+TXN-000910,11/10/2023,cust-1036,Middle East,PRD-202,Electric Kettle,Home & Kitchen,1,35.91
+TXN-000912,"Jan 21, 2024",CUST-1078,North America,PRD-501,A4 Printer Paper,Office Supplies,2,6.29
+TXN-000913,11/03/2023,CUST-1083,Middle East,PRD-105,Laptop Pro 15,  Electronics ,1,1169.99
+TXN-000915,08/10/2024,CUST-1019,North America,PRD-101,Wireless Mouse,Electronics,1,21.24
+TXN-000918,07/08/2024,CUST-1136,Middle East,PRD-202,Electric Kettle,Home & Kitchen,4,39.90
+TXN-000920,11/03/2023,CUST-1075,Asia Pacific,PRD-101,Wireless Mouse,Electronics,1,24.99
+TXN-000921,15/12/2024,CUST-1080,Africa,PRD-303,Running Shoes,Clothing,3,$75.65
+,23/05/2023,CUST-1052,North America,PRD-204,Blender,Home & Kitchen,5,64.95
+TXN-000926,22/05/2023,CUST-1033,North America,PRD-202,Electric Kettle,Home & Kitchen,1,33.91
+TXN-000929,20/03/2023,CUST-1102,North America,PRD-201,Non Stick Frying Pan,Home & Kitchen,1,34.50
+TXN-000930,31/10/2024,CUST-1078,North America,PRD-104,27 Inch Monitor,N/A,1,229.99
+TXN-000931,"Jun 17, 2024",CUST-1125,North America,PRD-204,Blender,Home & Kitchen,4,64.95
+TXN-000932,25/05/2024,CUST-1113,Europe,PRD-602,Signature Perfume,Beauty,6,59.90
+TXN-000933,"Jan 29, 2024",CUST-1099,North America,PRD-502,Ballpoint Pens Box,Office Supplies,2,4.05
+TXN-000935,22/04/2023,CUST-1112,Middle East,PRD-502,Ballpoint Pens Box,Office Supplies,8,4.50
+TXN-000936,23/04/2024,CUST-1146,Asia Pacific,PRD-204,Blender,HOME & KITCHEN,3,58.46
+TXN-000937,09/02/2023,CUST-1064,Middle East,PRD-101,Wireless Mouse,Electronics,4,22.49
+TXN-000938,30/03/2024,CUST-1146,Asia Pacific,PRD-102,Mechanical Keyboard,Electronics,2,79.99
+TXN-000943,13/09/2024,CUST-1110,North America,PRD-101,Wireless Mouse,Electronics,2,24.99
+TXN-000944,"Aug 28, 2024",cust-1042,Middle East,PRD-303,Running Shoes,Clothing,3,89.00
+TXN-000946,24/06/2024,CUST-1058,Africa,PRD-601,Face Moisturizer,Beauty,1,18.75
+txn-000144 ,29/12/2024,CUST-1017,North America,PRD-202,Electric Kettle,Home & Kitchen,1,39.90
+TXN-000947,25/08/2023,CUST-1063,Asia Pacific,PRD-302,Denim Jeans,Clothing,3,49.90
+TXN-000949,12/09/2024,CUST-1063,Asia Pacific,PRD-601,Face Moisturizer,  Beauty ,2,18.75
+TXN-000953,24/10/2023,CUST-1105,Africa,PRD-301,Cotton T-Shirt,Clothing,2,14.39
+TXN-000957,1999-12-31,CUST-1026,Africa,PRD-303,Running Shoes,Clothing,5,89.00
+TXN-000958,19/07/2024,CUST-1060,Middle East,PRD-501,A4 PRINTER PAPER,Office Supplies,6,6.99
+TXN-000959,14/01/2024,CUST-1002,Europe,PRD-501,A4 Printer Paper,Office Supplies,2,
+TXN-000962,22/11/2023,CUST-1010,North America,PRD-201,Non Stick Frying Pan,Home & Kitchen,6,29.32
+TXN-000966,09/04/2023,CUST-1101,Asia Pacific,PRD-301,Cotton T-Shirt,Clothing,2,15.99
+TXN-000968,25/10/2023,CUST-1126,Europe,PRD-502,Ballpoint Pens Box,Office Supplies,2,4.50
+TXN-000969,13/02/2024,CUST-1106,asia pacific,PRD-401,Yoga Mat,Sports & Outdoors,2,19.80
+TXN-000971,"Dec 28, 2023",CUST-1006,Africa,PRD-601,Face Moisturizer,Beauty,1,18.75
+TXN-000972,25/10/2023,CUST-1138,Europe,PRD-102,Mechanical Keyboard,Electronics,3,79.99
+TXN-000974,04/10/2023,CUST-1032,europe,PRD-101,Wireless Mouse,Electronics,3,$24.99

@@ -1,0 +1,72 @@
+{
+  "execution_timestamp_utc": "2026-10-31T18:58:45+00:00",
+  "duration_seconds": 0.1,
+  "source_files": [
+    "sales_batch_2.csv",
+    "sales_online_store.csv",
+    "sales_retail_stores.csv"
+  ],
+  "total_input_records": 1122,
+  "valid_records": 985,
+  "rejected_records": 137,
+  "duplicate_records": 47,
+  "missing_values": {
+    "total": 75,
+    "by_column": {
+      "transaction_id": 6,
+      "order_date": 7,
+      "customer_id": 9,
+      "region": 17,
+      "product_id": 0,
+      "product_name": 11,
+      "category": 11,
+      "quantity": 7,
+      "unit_price": 7
+    }
+  },
+  "invalid_numeric_values": {
+    "records_with_invalid_numeric_values": 30,
+    "invalid_quantity": 17,
+    "invalid_unit_price": 13
+  },
+  "rejection_reasons": {
+    "DUPLICATE_TRANSACTION_ID": 47,
+    "INVALID_QUANTITY": 17,
+    "INVALID_UNIT_PRICE": 13,
+    "MISSING_CUSTOMER_ID": 9,
+    "INVALID_ORDER_DATE": 9,
+    "ORDER_DATE_OUT_OF_RANGE": 8,
+    "MISSING_ORDER_DATE": 7,
+    "MISSING_UNIT_PRICE": 7,
+    "MISSING_QUANTITY": 7,
+    "INVALID_TRANSACTION_ID": 7,
+    "MISSING_TRANSACTION_ID": 6
+  },
+  "imputed_values": {
+    "product_name": {
+      "inferred_from_known_value": 11,
+      "default_applied": 0
+    },
+    "category": {
+      "inferred_from_known_value": 11,
+      "default_applied": 0
+    },
+    "region": {
+      "inferred_from_known_value": 17,
+      "default_applied": 0
+    }
+  },
+  "records_loaded": 88,
+  "records_skipped_already_loaded": 897,
+  "warehouse_row_counts": {
+    "DimProduct": 21,
+    "DimCustomer": 150,
+    "DimDate": 573,
+    "FactSales": 985
+  },
+  "foreign_key_violations": 0,
+  "output_files": {
+    "processed": "valid_transactions_20261031_185845_914729.csv",
+    "rejected": "rejected_transactions_20261031_185845_914729.csv"
+  }
+}

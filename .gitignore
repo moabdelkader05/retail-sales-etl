@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets / local configuration
+.env
+*.pem
+*.key
+
+# Generated warehouse database (re-created by `python main.py`)
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Generated pipeline outputs (re-created on every run).
+# The two example_report_*.json files in reports/ are kept as documentation of real runs.
+data/processed/*.csv
+data/rejected/*.csv
+reports/data_quality_report_*.json
+# Demo file created by `python main.py --add-sample-batch`
+data/raw/sales_batch_2.csv
+
+# Logs (keep the folder, ignore the content)
+logs/*.log
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
