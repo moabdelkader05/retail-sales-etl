@@ -122,7 +122,7 @@ def run_pipeline(
         len(duplicates),
     )
 
-    # 4. Save processed and rejected records
+    # 4. Prepare output paths
     stamp = f"{started_at:%Y%m%d_%H%M%S_%f}"
 
     processed_dir.mkdir(parents=True, exist_ok=True)
@@ -131,61 +131,84 @@ def run_pipeline(
     processed_path = processed_dir / f"valid_transactions_{stamp}.csv"
     rejected_path = rejected_dir / f"rejected_transactions_{stamp}.csv"
 
-    processed_output = final_valid.copy()
-    processed_output["unit_price"] = format_minor_units(
-        processed_output["unit_price_minor"]
-    )
-    processed_output["sales_amount"] = format_minor_units(
-        processed_output["sales_amount_minor"]
-    )
+    report_filename = f"data_quality_report_{stamp}.json"
+    report_path = reports_dir / report_filename
 
-    processed_output[PROCESSED_COLUMNS].to_csv(
-        processed_path,
-        index=False,
-        date_format="%Y-%m-%d",
-    )
+    # 5. Save outputs and load into the warehouse.
+    # If any step fails, remove only files created by this run.
+    try:
+        processed_output = final_valid.copy()
+        processed_output["unit_price"] = format_minor_units(
+            processed_output["unit_price_minor"]
+        )
+        processed_output["sales_amount"] = format_minor_units(
+            processed_output["sales_amount_minor"]
+        )
 
-    rejected_output.to_csv(rejected_path, index=False)
+        processed_output[PROCESSED_COLUMNS].to_csv(
+            processed_path,
+            index=False,
+            date_format="%Y-%m-%d",
+        )
 
-    # 5. Load into the warehouse
-    with closing(connect(db_path)) as conn:
-        initialize_schema(conn, schema_path)
+        rejected_output.to_csv(rejected_path, index=False)
 
-        load_result = load_transactions(conn, final_valid)
-        table_counts = get_table_counts(conn)
-        fk_violations = len(foreign_key_violations(conn))
+        with closing(connect(db_path)) as conn:
+            initialize_schema(conn, schema_path)
 
-    logger.info(
-        "Load finished: %d inserted, %d already in the warehouse",
-        load_result.inserted,
-        load_result.skipped_existing,
-    )
+            load_result = load_transactions(conn, final_valid)
+            table_counts = get_table_counts(conn)
+            fk_violations = len(foreign_key_violations(conn))
 
-    # 6. Build and save data quality report
-    report = {
-        "execution_timestamp_utc": started_at.isoformat(timespec="seconds"),
-        "duration_seconds": round(time.perf_counter() - timer, 3),
-        "source_files": source_files,
-        "total_input_records": total_input,
-        "valid_records": len(final_valid),
-        "rejected_records": len(rejected_output),
-        "duplicate_records": len(duplicates),
-        "missing_values": missing_values,
-        "invalid_numeric_values": invalid_numeric,
-        "rejection_reasons": reason_counts,
-        "imputed_values": imputed_values,
-        "records_loaded": load_result.inserted,
-        "records_skipped_already_loaded": load_result.skipped_existing,
-        "warehouse_row_counts": table_counts,
-        "foreign_key_violations": fk_violations,
-        "output_files": {
-            "processed": processed_path.name,
-            "rejected": rejected_path.name,
-            "report": f"data_quality_report_{started_at:%Y%m%d_%H%M%S_%f}.json",
-        },
-    }
+        logger.info(
+            "Load finished: %d inserted, %d already in the warehouse",
+            load_result.inserted,
+            load_result.skipped_existing,
+        )
 
-    report_path = save_report(report, reports_dir, started_at)
+        # 6. Build and save data quality report
+        report = {
+            "execution_timestamp_utc": started_at.isoformat(timespec="seconds"),
+            "duration_seconds": round(time.perf_counter() - timer, 3),
+            "source_files": source_files,
+            "total_input_records": total_input,
+            "valid_records": len(final_valid),
+            "rejected_records": len(rejected_output),
+            "duplicate_records": len(duplicates),
+            "missing_values": missing_values,
+            "invalid_numeric_values": invalid_numeric,
+            "rejection_reasons": reason_counts,
+            "imputed_values": imputed_values,
+            "records_loaded": load_result.inserted,
+            "records_skipped_already_loaded": load_result.skipped_existing,
+            "warehouse_row_counts": table_counts,
+            "foreign_key_violations": fk_violations,
+            "output_files": {
+                "processed": processed_path.name,
+                "rejected": rejected_path.name,
+                "report": report_filename,
+            },
+        }
+
+        report_path = save_report(report, reports_dir, started_at)
+
+    except Exception:
+        logger.exception("Pipeline failed. Cleaning outputs from this run.")
+
+        for output_path in (
+            processed_path,
+            rejected_path,
+            report_path,
+        ):
+            try:
+                output_path.unlink(missing_ok=True)
+            except OSError:
+                logger.exception(
+                    "Could not remove partial output file: %s",
+                    output_path,
+                )
+
+        raise
 
     logger.info(
         "Pipeline finished in %.2f s. Report: %s",
