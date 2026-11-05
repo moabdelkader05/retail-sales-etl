@@ -55,7 +55,8 @@ def test_report_is_saved_as_json_with_a_timestamp(pipeline_paths):
     content = json.loads(saved[0].read_text(encoding="utf-8"))
     assert content["total_input_records"] == EXPECTED_TOTAL
     assert content["execution_timestamp_utc"]
-
+    assert content["output_files"] == report["output_files"]
+    assert content["output_files"]["report"] == saved[0].name
 
 def test_rejected_records_are_preserved_with_reasons(pipeline_paths):
     run_pipeline(**pipeline_paths)
